@@ -27,19 +27,12 @@ The Student Care App is designed to support students at the University of Vauniy
    ```bash
    npm install
    ```
-3. **Set Up Environment Variables**:
-   Create a `.env` file in the root directory with the following variables:
-   ```env
-   REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
-   REACT_APP_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
-   REACT_APP_FIREBASE_PROJECT_ID=your_project_id
-   REACT_APP_MONGO_URI=your_mongodb_connection_string
-   ```
-4. **Run the Development Server**:
+
+3. **Run the Development Server**:
    ```bash
    npm start
    ```
-5. **Build the App**:
+4. **Build the App**:
    For Android:
    ```bash
    npm run android
