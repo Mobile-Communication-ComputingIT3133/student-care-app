@@ -91,17 +91,4 @@ For queries or support, please contact:
 
 ## Outputs
 
-**Login**
-![Login](Output/1.jpg)
-
-**Login with Password**
-![Login1](Output/2.jpg)
-
-**Profile**
-![profile](Output/3.jpg)
-
-**Course**
-![Course](Output/4.jpg)
-
-**Subject**
-![Subject](Output/5.jpg)
+![output](Output/Output.png)
