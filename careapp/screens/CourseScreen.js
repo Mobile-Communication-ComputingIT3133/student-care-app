@@ -1,5 +1,5 @@
 import { Image, ScrollView, StyleSheet, View } from "react-native";
-import banner from "../assets/uov_banner.png";
+import banner from "../assets/banner.png";
 import React from "react";
 import { Divider, Text } from "react-native-paper";
 import { courses } from "../assets/data/StudentsDb";

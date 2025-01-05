@@ -4,7 +4,7 @@ import React from "react";
 import { Ionicons, MaterialCommunityIcons } from "@expo/vector-icons";
 import ProfileScreen from "./ProfileScreen";
 import CourseScreen from "./CourseScreen";
-import SubjectsScreen from "./SubjectsScreen";
+import SubjectScreen from "./SubjectScreen";
 
 const Tab = createBottomTabNavigator();
 
@@ -53,7 +53,7 @@ const HomeScreen = ({ route }) => {
       />
       <Tab.Screen
         name="Subjects"
-        component={SubjectsScreen}
+        component={SubjectScreen}
         initialParams={{ student: student }}
       />
     </Tab.Navigator>

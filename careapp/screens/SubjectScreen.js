@@ -1,10 +1,10 @@
 import { Image, ScrollView, StyleSheet, View } from "react-native";
-import banner from "../assets/uov_banner.png";
+import banner from "../assets/banner.png";
 import React from "react";
 import { Divider, Text } from "react-native-paper";
 import { marks, subjects } from "../assets/data/StudentsDb";
 
-const SubjectsScreen = ({ route }) => {
+const SubjectScreen = ({ route }) => {
   const { student } = route.params;
   const subjectList = subjects.filter(
     (subject) => subject.course_id === student.course_id
@@ -174,4 +174,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default SubjectsScreen;
+export default SubjectScreen;
