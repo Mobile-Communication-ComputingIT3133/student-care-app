@@ -20,8 +20,8 @@ The Student Care App is designed to support students at the University of Vauniy
 ## Setup Instructions
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/student-care-app.git
-   cd student-care-app
+   git clone https://github.com/Mobile-Communication-ComputingIT3133/student-care-app.git
+   cd careapp
    ```
 2. **Install Dependencies**:
    ```bash
